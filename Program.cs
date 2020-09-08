@@ -12,32 +12,20 @@ namespace HelloWord
         {
            // Console.WriteLine("这是我的第一个C#程序");
             //Console.ReadLine();
-
-           // ConsoleColor console1 = ConsoleColor.DarkBlue;
             //string s = Console.ReadLine();
-            Console.ForegroundColor = ConsoleColor.DarkBlue;
-            Console.BackgroundColor = ConsoleColor.Red;
-            Console.Title = "king";
-            Console.WriteLine("这是我的第一个C#程序"/*+Console.Title*/);
-
-
+            Console.ForegroundColor = ConsoleColor.DarkBlue;//设置控制台字体颜色
+            Console.BackgroundColor = ConsoleColor.Red;//设置背景色
+            Console.Title = "king";//设置控制台标题
+            Console.WriteLine("这是我的第一个C#程序");//输出语句
             Console.ForegroundColor = ConsoleColor.Yellow;
-
-
-            Console.WriteLine("这是我的第一个C#程序"/*+Console.Title*/);
-
+            Console.WriteLine("这是我的第一个C#程序");
             Console.ForegroundColor = ConsoleColor.Green;
-
-
-            Console.WriteLine("这是我的第一个C#程序"/*+Console.Title*/);
-
+            Console.WriteLine("这是我的第一个C#程序");
             Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine("这是我的第一个C#程序"/*+Console.Title*/);
-
+            Console.WriteLine("这是我的第一个C#程序");
             Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine("这是我的第一个C#程序"/*+Console.Title*/);
-
-            //Process.Start("C:\\Windows\\System32\\cmd.exe");
+            Console.WriteLine("这是我的第一个C#程序");
+            //Process.Start("C:\\Windows\\System32\\cmd.exe");//启动电脑内自带软件
             Console.ReadLine();
         }
     }
